@@ -8,7 +8,7 @@ html {
   box-sizing: inherit;
 }
 
-body{
+body {
   background-color: white;
 }
 
@@ -25,17 +25,16 @@ img {
 }
 
 h2 {
-  font-family:'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 30px;
   font-weight: 400;
   color: #626262;
-  /*line-height: 1.2;*/
   margin: 0 0 0 0 px;
   padding: 0;
 }
 
 h3 {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-size: 14px;
   text-transform: uppercase;
   font-weight: 300;
@@ -43,25 +42,20 @@ h3 {
   color: #b4ad9e;
 }
 
-/*  navigation */
-
 .navigation {
-  display: inline-block;
-  /* width: 772; */
   margin: 82px 0 100px;
   padding: 0;
   list-style: none;
   text-align: center;
 }
+
 .navigation li {
   display: inline-block;
-  margin-left: 164px;
   padding: 0 0 0 0;
-  /* margin-right: 100px; */
 }
 
 .navigation li:not(:last-child) {
-  margin-right: -63px;
+  margin-right: 100px;
 }
 
 .navigation a {
@@ -76,10 +70,6 @@ h3 {
   color: #03a9f4;
 }
 
-/* section */
-/* .main-content {
-} */
-
 .list-content {
   list-style: none;
   padding: 0;
@@ -90,7 +80,6 @@ h3 {
 .list-item {
   display: inline-block;
   width: 420px;
-  /* margin-right: 5px; */
 }
 
 .list-item:not(:nth-child(2n)) {
@@ -103,31 +92,29 @@ h3 {
 
 .text {
   font-size: 14px;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   color: #626262;
   line-height: 24px;
   padding: 28px 0px 0px 0px;
 }
 
- .list-item {
-  padding-bottom: 128px;
+.list-item {
+  margin-bottom: 128px;
 }
 
-.list-item:nth-last-child(-n + 2){
+.list-item:nth-last-child(-n + 2) {
   padding-bottom: 0px;
-
 }
 
 .button {
   font-size: 20px;
   font-family: "Playfair Display";
   color: #626262;
-  /* line-height: 1.2; */
   background-color: transparent;
   border: 1px solid #626262;
   width: 162px;
   height: 58px;
   text-decoration: none;
   display: block;
-  margin: 52px 358px 70px;
+  margin: 52px auto 70px;
 }
